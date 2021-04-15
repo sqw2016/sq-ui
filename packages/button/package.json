@@ -1,9 +1,10 @@
 {
-  "name": "sq-button",
+  "name": "sq-button1",
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "lodash": "2"
-  }
+  },
+  "gitHead": "9c655d4fa5e4b1aa3047215dd73b0603d7e8f2c5"
 }
