@@ -1,0 +1,44 @@
+{
+  "name": "init-element-ui",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "async-validator": "^3.5.1",
+    "element-ui": "^2.4.5",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@storybook/addon-actions": "^6.2.8",
+    "@storybook/addon-essentials": "^6.2.8",
+    "@storybook/addon-links": "^6.2.8",
+    "@storybook/vue": "^6.2.8",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-component": "^1.1.1",
+    "lerna": "^4.0.0",
+    "vue-cli-plugin-element": "~1.0.1",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "license": "MIT",
+  "babel": {
+    "plugins": [
+      [
+        "component",
+        {
+          "libraryName": "element-ui",
+          "styleLibraryName": "theme-chalk"
+        }
+      ]
+    ]
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "lerna": "lerna publish"
+  }
+}
