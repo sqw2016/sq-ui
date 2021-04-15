@@ -1,10 +1,9 @@
 {
   "name": "sq-input",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "lodash": "2"
-  },
-  "gitHead": "161937bd9f1060f23bdad7653e9214d1b67b72d5"
+  }
 }
